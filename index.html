@@ -24,32 +24,42 @@
   padding: 20px;
   width: 250px;
 }
+#notification {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+      display: none;
+    }
 </style>
 
 <body>
 <div class="container-fluid p-5 bg-dark text-white text-center">
   <h1>E-commerce Dashboard</h1>
 </div>
+
+<div id="notification" class="alert alert-success d-none"></div>
+
   
 <div class="container mt-5">
   <div class="row">
     <div class="col-sm-4 text-bg-light text-center">
       <img src="laptop.jpg" height="200" width="200" alt="Product 1">
-        <h2>Microsoft Surface Laptop</h2>
+        <h2>Laptop</h2>
         <p>Price: ₱1500.00</p>
         <p>In Stock: 5</p>
         <button class="add-to-cart">Add to Cart</button>
     </div>
     <div class="col-sm-4 text-bg-light text-center">
       <img src="headphones.jpg" height="200" width="200" "Product 1">
-        <h2>WH-CH520 Wireless Headphones</h2>
+        <h2>Headphones</h2>
         <p>Price: ₱100.00</p>
         <p>In Stock: 10</p>
         <button class="add-to-cart">Add to Cart</button>
     </div>
     <div class="col-sm-4 text-bg-light text-center">
-      <img src="keyboard.jpg" height="245" width="245" alt="Product 1">
-        <h2>Fantech Fighter</h2>
+      <img src="keyboard.jpg" height="200" width="200" alt="Product 1">
+        <h2>Keyboard</h2>
         <p>Price: ₱50.00</p>
         <p>In Stock: 20</p>
         <button class="add-to-cart">Add to Cart</button>
@@ -62,5 +72,4 @@
         <p>Contact Us | Follow Us on Social Media</p>
 </footer>
 
-<script src="app.js"></script>
-
+<script src="app.js"</script>
